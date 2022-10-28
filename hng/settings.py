@@ -26,8 +26,7 @@ SECRET_KEY = 'django-insecure-t_-(g3mi#hu-h#g&42zsimbn4@zg+kihj870b@qef9u1=bg=dy
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-CORS_ALLOW_ALL_ORIGINS = True 
-CORS_ALLOW_CREDENTIALS = True
+
 
 # Application definition
 
@@ -87,7 +86,10 @@ DATABASES = {
     }
 }
 
+CORS_ALLOW_ALL_ORIGINS = True 
+CORS_ALLOW_CREDENTIALS = True
 
+ALLOWED_HOSTS = ['stagei9.herokuapp.com']
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
 
